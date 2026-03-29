@@ -10,10 +10,11 @@ public class TicTacToe {
         String[][] board  = { {"_","_", "_"}, {"_","_", "_"}, {"_","_", "_"}  
         };
         for (int i = 0 ; i < board.length; i++) {
-            System.out.println("\n");
+            System.out.println("\t");
             for (int j = 0; j < board.length; j++) {
-                System.out.print(board[i][j]);
+                System.out.print(board[i][j] + " ");
             }
+            System.out.println("\n\n");
         }
 
         System.out.println("\n\nPress enter to continue: ");
